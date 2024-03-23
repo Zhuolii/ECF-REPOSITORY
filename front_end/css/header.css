@@ -1,0 +1,149 @@
+
+/*phone css*/
+@media (max-width: 1023px){
+body{
+    margin: 0;
+    width: 100vw;
+   
+}
+#logo_header {
+        width: 4em;
+        height: 4em;
+       display: inline;
+       padding: 0 1em;
+}
+nav{
+    background-color: #BCC19E;
+   
+    position: relative;
+    z-index: 100000;
+  
+  
+    
+      
+    
+}
+#container {
+    position: relative;
+    overflow: hidden;
+
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.nav_link{
+color: white;
+padding: 2em 8em;    
+text-decoration: none;
+}
+#nav_button{
+    background-color: #966300;
+    border-radius: 10px;
+    color: white;
+    padding: 1em 3em;
+    border: none;
+}
+.nav__checkbox {
+    display: none;
+    position: fixed;
+}
+.hide_nav {
+    padding: 0;
+    position: relative;
+    transform: translateX(100%);
+    z-index: 0;
+    transition: all 0.3s ease;
+    background-color: #BCC19E;
+    height: 100vh;
+    top: -3vh;
+    
+}
+.show_nav {
+    padding: 0;
+    background-color: #BCC19E;
+    position: relative;
+    right: 0px;
+    z-index: 0;
+    transition: all 0.3s ease;
+    height: 100vh;
+    top: -3vh;
+   
+    
+}
+label.nav__toggle .menu {
+    width: 3rem;
+    fill: rgb(5, 5, 5);
+    display: block;
+}
+label.nav__toggle .close {
+    display: none;
+    width: 3rem;
+    fill: rgb(5, 5, 5);
+}
+label.nav__toggle {
+    position: absolute;
+    top: 0em;
+    right: 1em;
+    z-index: 100;
+}
+}
+/*phone css*/
+/*desktop css*/
+@media (min-width: 1024px){
+    body {
+        margin: 0;
+    }
+    ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 0 2em 4em;
+        margin-top: -4em;
+    }
+    #logo_header {
+        width: 4em;
+        height: 4em;
+       display: inline;
+       padding: 0 1em;
+}
+label.nav__toggle {
+    display: none;
+}
+#nav__checkbox {
+    display: none;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+}
+nav, .nav_container{
+    background-color: #BCC19E;
+    
+    
+}
+.nav_container {
+    padding: 0;
+}
+.nav_link{
+    color: white;
+    padding: 1em 4em;  
+    text-decoration: none;  
+    margin-top: 0.5em;
+    }
+ #nav_button{
+        background-color: #966300;
+        border-radius: 10px;
+        color: white;
+        padding: 1em 1.5em;
+        margin: 1em 2.5em;
+        border: none;
+    }
+}
+/*desktop css*/
