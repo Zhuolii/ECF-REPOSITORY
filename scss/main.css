@@ -11973,9 +11973,8 @@ html {
 
 footer.footer {
   padding: 15px;
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  margin-top: 5em;
 }
 
 main {
@@ -11988,10 +11987,11 @@ p {
 }
 
 .hero-scene {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 50em;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.725), rgba(0, 0, 0, 0.073)), url(../image/service/beer-garden-1682631_1280.jpg);
   background-size: cover;
+  margin-bottom: 15px;
 }
 .hero-scene * {
   position: relative;
@@ -12003,4 +12003,29 @@ p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.image-card {
+  position: relative;
+}
+.image-card:hover .titre-image {
+  opacity: 1;
+}
+.image-card:hover img {
+  filter: brightness(0.3);
+}
+.image-card img {
+  transition: all 0.3s;
+}
+.image-card .titre-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.form-label {
+  color: #748635;
 }/*# sourceMappingURL=main.css.map */
