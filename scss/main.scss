@@ -1,4 +1,4 @@
-@import url(./node_modules/bootstrap-icons/font/bootstrap-icons.css);
+@import url(../node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
 html {
     position: relative;
@@ -44,19 +44,32 @@ p{
     .image-card{
         position:relative;
         &:hover{
-            .titre-image{
+            .titre-image,
+            .action-image-buttons{
                 opacity: 1;
             }
-            img{
-                filter: brightness(0.3);
-            }
         }
     
-        img{
+    
+        .action-image-buttons{
+            position : absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 5px;
+            display: flex;
+            justify-content: space-between;
+    
+            opacity: 0;
             transition: all 0.3s;
         }
-    
-        .titre-image{
+    }
+
+     img{
+            transition: all 0.3s;
+        }
+
+.titre-image{
             position: absolute;
             top:50%;
             left:50%;
@@ -64,7 +77,8 @@ p{
             opacity: 0;
             transition: all 0.3s;
         }
-    }
+
+
     .form-label{
         color: $primary;
     }

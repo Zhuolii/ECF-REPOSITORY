@@ -7,8 +7,9 @@ export const allRoutes = [
     new Route("/habitats", "Habitats", "/pages/habitats.html"),
     new Route("/galerie", "Habitats", "/pages/galerie.html"),
     new Route("/contact", "Contact", "/pages/contact.html"),
-    new Route("/connexion", "Connexion", "/pages/signin.html"),
-    new Route("/inscription", "Inscription", "/pages/signup.html"),
+    new Route("/signin", "Connexion", "/pages/auth/signin.html"),
+    new Route("/account", "Mon compte", "/pages/auth/account.html"),
+    ,
 
 ];
 
