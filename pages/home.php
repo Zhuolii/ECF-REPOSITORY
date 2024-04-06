@@ -1,7 +1,7 @@
 <div class="hero-scene text-center">
   <div class="hero-scene-content">
-    <h1 class="">LE ZOO D’ARCADIA</h1>
-    <p class="text-white  p-5">
+    <h1 class="text-white">LE ZOO D’ARCADIA</h1>
+    <p class="text-white p-5">
       Une parenthèse exceptionnelle de 7 hectares située à deux pas du
       centre-ville, dans laquelle le végétal et l’animal se découvrent au fil de
       l’eau. Une véritable île de biodiversité, qui associe calme, nature et
@@ -9,7 +9,7 @@
       surprendre par l’un des 700 animaux qui peuplent le site.
     </p>
   </div>
-  <button class="btn btn-primary">coucou</button>
+  <a href="/galerie"><button class="btn btn-primary">>Découvrir la gallerie</button></a>
 </div>
 
 <section>
@@ -83,3 +83,114 @@
       </div>
     </article>
   </section>
+  <div class="container mt-5 mb-5">
+
+    <div class="row height d-flex justify-content-center align-items-center">
+
+      <div class="col-md-7">
+
+        <div class="card">
+
+          <div class="p-3">
+
+            <h5>Commentaires</h5>
+            
+          </div>
+
+         
+
+
+          <div class="mt-2">
+
+            <div class="d-flex flex-row p-3 m-3 border-bottom">
+
+             
+
+              <div class="w-100">
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="d-flex flex-row align-items-center">
+                      <span class="mr-2">Brian selter</span>
+                     
+                    </div>
+                  
+              </div>
+              <br>
+
+              <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+            </div>
+            
+
+          </div>
+
+          <div class="d-flex flex-row p-3 m-3 border-bottom">
+
+             
+
+            <div class="w-100">
+
+              <div class="d-flex justify-content-between align-items-center">
+                  <div class="d-flex flex-row align-items-center">
+                    <span class="mr-2">Brian selter</span>
+                   
+                  </div>
+                
+            </div>
+            <br>
+
+            <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+          </div>
+          
+
+        </div>
+        <div class="d-flex flex-row p-3 m-3 border-bottom">
+
+             
+
+          <div class="w-100">
+
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row align-items-center">
+                  <span class="mr-2">Brian selter</span>
+                 
+                </div>
+              
+          </div>
+          <br>
+
+          <p class="text-justify comment-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+        </div>
+        
+
+      </div>
+      <div class="p-3 m-2 display-1">
+
+        <h5>Laisser un commentaire </h5>
+        
+      </div>
+      <form class="m-2 p-2">
+        <div class="form-group">
+          <label for="name">Pseudo</label>
+          <input type="text" class="form-control m-2" id="name" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Adresse email</label>
+          <input type="email" class="form-control m-2" id="email" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Commentaire</label>
+          <textarea class="form-control m-2" id="message" rows="3" placeholder="Laisser un commentaire" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary m-2">Envoyer</button>
+      </form>
+        </div>
+        
+      </div>
+      
+    </div>
+    </div>
+    
+  </div>

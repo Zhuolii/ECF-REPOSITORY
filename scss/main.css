@@ -12039,4 +12039,21 @@ img {
 
 .form-label {
   color: #748635;
+}
+
+.heading_text {
+  color: #748635;
+}
+
+.animal_description {
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.animal_description::after {
+  content: "-";
+}
+
+.hidden_animal_image {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

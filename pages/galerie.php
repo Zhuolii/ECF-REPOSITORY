@@ -1,6 +1,6 @@
 <div class="hero-scene text-center">
     <div class="hero-scene-content">
-      <h1 class="">Galerie</h1>
+      <h1 class="text-white">Galerie</h1>
     
     </div>
   
