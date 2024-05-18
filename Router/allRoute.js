@@ -10,11 +10,7 @@ export const allRoutes = [
     new Route("/signin", "Connexion", "src/pages/auth/signin.php", ["disconnected"], "js/auth/signin.js"),
     new Route("/account", "Mon compte", "src/pages/auth/account.php", ["connected"]),*/
     new Route("/services", "Services", "src/pages/home.php", []),
-    new Route("/habitats", "Habitats", "src/pages/home.php", [], "js/habitats.js"),
-    new Route("/galerie", "Habitats", "src/pages/home.php", []),
-    new Route("/contact", "Contact", "src/pages/home.php", []),
-    new Route("/signin", "Connexion", "src/pages/home.php", ["disconnected"], "js/auth/signin.js"),
-    new Route("/account", "Mon compte", "src/pages/home.php", ["connected"]),
+
   ];
 
 //Le titre s'affiche comme ceci : Route.titre - websitename
