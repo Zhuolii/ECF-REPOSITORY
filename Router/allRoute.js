@@ -1,4 +1,4 @@
-import Route from "./route.js";
+import Route from "/route.js";
 
 //Définir ici vos routes
 export const allRoutes = [
