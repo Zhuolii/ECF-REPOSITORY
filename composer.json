@@ -1,0 +1,20 @@
+{
+    "name": "ECF repository Zoo d'arcadia",
+    "description": "Le zoo d'arcadia est une application web de type vitrine qui permet à un admin de gerer le contenu de son site web pour mettre en valeur le zoo et ses services.",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "david",
+            "email": "lightfreee@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "pages/"
+        }
+    }
+}
