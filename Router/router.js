@@ -1,7 +1,7 @@
 import Route from "./route.js";
 import {allRoutes} from "./allRoute.js";
 import {websiteName} from "./allRoute.js";
-
+alert("router imported");
 // Création d'une route pour la page 404 (page introuvable)
 const route404 = new Route("404", "Page introuvable", "src/pages/404.html",[]);
 
@@ -17,8 +17,11 @@ const getRouteByUrl = (url) => {
   });
   // Si aucune correspondance n'est trouvée, on retourne la route 404
   if (currentRoute != null) {
-    return currentRoute;
+   
+    alert("currentroute = " + currentRoute);
+     return currentRoute;
   } else {
+    alert("currentroute = " + currentRoute);
     return route404;
   }
 };
