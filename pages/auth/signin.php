@@ -10,14 +10,17 @@
     <form>
         <div class="mb-3">
           <label for="EmailInput" class="form-label">Email</label>
-          <input type="email" class="form-control" id="EmailInput" placeholder="test@mail.fr" name="Email"> 
+          <input type="email" class="form-control" id="EmailInput" placeholder="" name="Email"> 
+          <div class="invalid-feedback">
+            Le mail et le mot de passe ne correspondent pas
+          </div>
         </div>
         <div class="mb-3">
           <label for="PasswordInput" class="form-label">Mot de passe</label>
           <input type="password" class="form-control" id="PasswordInput" name="Password">
         </div>
         <div class="text-center">
-            <button type="submit" class="btn btn-primary">Connexion</button>
+            <button type="button" class="btn btn-primary" id="btnConnexion">Connexion</button>
         </div>
     </form>
     <!--

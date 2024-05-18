@@ -48,13 +48,13 @@
     <h2>Nos horaires : </h2>
     <ul class="list-group list-group-flush">
     <?php
-    $lundi_time = "lundi";
-    $mardi_time = "mardi";
-    $mercredi_time = "mercredi";
-    $jeudi_time = "jeudi";
-    $vendredi_time = "vendredi";
-    $samedi_time = "samedi";
-    $dimanche_time = "dimanche"; ?>
+    $lundi_time = "8H - 18H";
+    $mardi_time = "8H - 18H";
+    $mercredi_time = "8H - 18H";
+    $jeudi_time = "8H - 18H";
+    $vendredi_time = "8H - 18H";
+    $samedi_time = "fermé";
+    $dimanche_time = "fermé"; ?>
       <li class="m-2 p-1">Lundi : <?php echo $lundi_time; ?></li>
       <li class="m-2 p-1">Mardi :<?php echo $mardi_time; ?> </li>
       <li class="m-2 p-1">Mercredi :<?php echo $mercredi_time; ?> </li>
