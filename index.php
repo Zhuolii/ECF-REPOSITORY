@@ -33,7 +33,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item" data-show="connected">
                     <a class="nav-link" href="/account">Mon compte</a>
                   </li>
                   <li class="nav-item" data-show="disconnected">
