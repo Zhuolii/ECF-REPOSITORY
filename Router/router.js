@@ -22,6 +22,7 @@ const getRouteByUrl = (url) => {
      return currentRoute;
   } else {
     alert("currentroute = " + currentRoute);
+    alert("activating route404");
     return route404;
   }
 };

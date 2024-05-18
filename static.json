@@ -1,0 +1,7 @@
+{
+    "root": "src/pages/",
+    "routes": {
+      "/": "home.php",
+      "/**": "404.html"
+    }
+  }
