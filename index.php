@@ -77,8 +77,13 @@
      </div>
     
     </footer>
-    <script src="js/script.js"></script>
-    <script type="module" src="./Router/router.js"></script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- JS script.js -->
+<script src="/js/script.js"></script>
+
+<!-- Router/router.js (using module) -->
+<script type="module" src="/Router/router.js"></script>
+
+<!-- Bootstrap JavaScript -->
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
