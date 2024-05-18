@@ -55,6 +55,20 @@
     </header>
     <main id="main-page">
         <!-- Le contenu de la page ici-->
+        <?php
+// Récupérer le chemin de la page demandée
+$requested_page = $_SERVER['REQUEST_URI'];
+
+// Vérifier si le fichier existe
+if (file_exists("pages{$requested_page}.php")) {
+    // Inclure le fichier de la page
+    include "pages{$requested_page}.php";
+} else {
+    // Rediriger vers la page 404
+    http_response_code(404);
+    include "404.html";
+}
+?>
     </main>
     <footer class="bg-black text-white text-center footer">
       <div class="row">
