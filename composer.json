@@ -1,6 +1,6 @@
 {
     "name":"mycompany/zooarcadia",
-    "version": "2.7.6",
+    "version": "1.2.3",
     "description": "Le zoo d'arcadia est une application web de type vitrine qui permet à un admin de gerer le contenu de son site web pour mettre en valeur le zoo et ses services.",
     "type": "project",
     "license": "proprietary",
