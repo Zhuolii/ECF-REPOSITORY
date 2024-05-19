@@ -22,22 +22,22 @@
                     <a class="nav-link " href="/">Accueil</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/">Services</a>
+                    <a class="nav-link" href="/services">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/">Habitats</a>
+                    <a class="nav-link" href="/habitats">Habitats</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/">Galerie</a>
+                    <a class="nav-link" href="/galerie">Galerie</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="/">Contact</a>
+                    <a class="nav-link" href="/contact">Contact</a>
                   </li>
                   <li class="nav-item" data-show="connected">
-                    <a class="nav-link" href="/">Mon compte</a>
+                    <a class="nav-link" href="/account">Mon compte</a>
                   </li>
                   <li class="nav-item" data-show="disconnected">
-                    <a class="nav-link" href="/">Connexion</a>
+                    <a class="nav-link" href="/signin">Connexion</a>
                   </li>
                   <li class="nav-item" data-show="connected">
                    <button type="button" class="nav-link " id="signout-btn">Déconnexion</button>
