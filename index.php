@@ -82,7 +82,7 @@
 <script src="/js/script.js"></script>
 
 <!-- Router/router.js (using module) -->
-<script type="module" src="/Router/router.js"></script>
+<script type="module" src="/Router/app.js"></script>
 
 <!-- Bootstrap JavaScript -->
 <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
