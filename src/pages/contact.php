@@ -5,29 +5,40 @@
     </div>
   
   </div>
+  <?php
+session_start();
+
+// Fonction de génération du jeton CSRF
+function generateCSRFToken() {
+    $token = bin2hex(random_bytes(32));
+    $_SESSION['csrf_token'] = $token;
+    return $token;
+}
+
+// Générer le jeton CSRF
+$csrf_token = generateCSRFToken();
+?>
   <div class="d-flex justify-content-center">
-      <section class="w-75 ">
-    <h1 class="m-3 p-3">
-      Envoyer un message :
-    </h1>
-    <form class="m-2 p-3 ">
-      
-        <div class="form-group">
-          <label for="email">Adresse email</label>
-          <input type="email" class="form-control m-2" id="email" placeholder="" name="Email :"required>
-        </div>
-        <div class="form-group">
-          <label for="titre">Titre</label>
-          <input type="text" class="form-control m-2" id="titre" placeholder="Objet" cols="40" name="Objet :" required>
-        </div>
-        <div class="form-group">
-          <label for="description">Message</label>
-          <textarea class="form-control m-2" id="description" rows="3" placeholder="Message" name="Message :" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary m-2">Envoyer</button>
-      </form>
+  <section class="w-75">
+    <h1 class="m-3 p-3">Envoyer un message :</h1>
+    <form class="m-2 p-3" method="post" action="submit.php" autocomplete="off">
+      <div class="form-group">
+        <label for="email">Adresse email</label>
+        <input type="email" class="form-control m-2" id="email" placeholder="" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="titre">Titre</label>
+        <input type="text" class="form-control m-2" id="titre" placeholder="Objet" name="subject" required>
+      </div>
+      <div class="form-group">
+        <label for="description">Message</label>
+        <textarea class="form-control m-2" id="description" rows="3" placeholder="Message" name="message" required></textarea>
+      </div>
+      <input type="hidden" name="csrf_token" value="<?php echo $csrf_token; ?>">
+      <button type="submit" class="btn btn-primary m-2">Envoyer</button>
+    </form>
   </section>
-  </div>
+</div>
 
   <section class="text-center">
     <h1>Nous contacter</h1>

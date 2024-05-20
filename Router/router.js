@@ -1,10 +1,10 @@
 import Route from "./route.js";
 import {allRoutes} from "./allRoute.js";
 import {websiteName} from "./allRoute.js";
-alert("router imported");
+
 // Création d'une route pour la page 404 (page introuvable)
 const route404 = new Route("404", "Page introuvable", "src/pages/404.html",[]);
-alert("route404 =" + route404);
+
 
 
 // Fonction pour récupérer la route correspondant à une URL donnée
