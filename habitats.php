@@ -19,7 +19,8 @@
   </div>
   <article>
     <section class="text-center p-3 m-3">
-      <h3 p-2 m-2>La Savane </h3>
+      <?php $habitat_1 ="La Savane"?>
+      <h3 p-2 m-2><?php echo $habitat_1 ?> </h3>
       <label>
       <img src="../image/animal/giraffe-215901_1280.jpg" alt="savane" class="w-25 ">
       <input type="checkbox" data-toggle="toggle" id="toggle-switch">

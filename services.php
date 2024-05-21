@@ -63,14 +63,20 @@
   <section>
     <article>
       <div class="container p-4 text-center mb-4">
-        <h2 class="p-4 heading_text">Visite du zoo en petit train :</h2>
+      <?php $service_3 = "Visite du zoo en petit train :"; ?>
+        <h2 class="p-4 heading_text"><?php echo $service_3;?></h2>
         <div class="row row-cols-12 row-cols-2-md row-cols-2-lg">
           <div class="col text-center">
+          <?php $service_3_text =" Embarquez à bord de notre petit train pour une visite guidée du Zoo en toute commodité et confort. Laissez-vous transporter à travers les différents habitats et découvrez la diversité de la faune qui peuple notre parc.
+           ";?>
             <p class="text-start p-3">
-              Embarquez à bord de notre petit train pour une visite guidée du Zoo en toute commodité et confort. Laissez-vous transporter à travers les différents habitats et découvrez la diversité de la faune qui peuple notre parc.
-          </div>
+            <?php echo $service_3_text;?>
+            </p>
+             </div>
           <div class="col-12 col-md col-lg">
-            <img class="w-100" src="../image/service/train-1131022_1280.jpg" alt="petit train" />
+          <?php $service_3_img =" <img class=\"w-100\" src=\"../image/service/train-1131022_1280.jpg\" alt=\"petit train\" />"?>
+          <?php echo $service_3_img; ?>
+       
           </div>
          
         </div>
