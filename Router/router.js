@@ -4,7 +4,8 @@ import {websiteName} from "./allRoute.js";
 
 // Création d'une route pour la page 404 (page introuvable)
 const route404 = new Route("404", "Page introuvable", "src/pages/404.html",[]);
-
+const PORT = process.env.PORT || 3000;
+app.listen(PORT);
 
 
 // Fonction pour récupérer la route correspondant à une URL donnée
@@ -19,11 +20,11 @@ const getRouteByUrl = (url) => {
   // Si aucune correspondance n'est trouvée, on retourne la route 404
   if (currentRoute != null) {
    
-    alert("currentroute = " + currentRoute);
+   
      return currentRoute;
   } else {
-    alert("currentroute = " + currentRoute);
-    alert("activating route404");
+    
+   
     return route404;
   }
 };
