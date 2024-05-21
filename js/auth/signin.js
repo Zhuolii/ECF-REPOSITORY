@@ -12,7 +12,7 @@ btnConnexion.addEventListener("click", checkCredentials);
 
 function checkCredentials (){
     // apperler API pour verifier les credentials en bdd : mail et mdp à changer 
-    if(mailInput.value == "test@mail.fr" && passwordInput.value == "123"){
+    if(mailInput.value == "jose@admin.arcadia" && passwordInput.value == "cC8Jd2b4"){
         alert("connexion reussie");
 
         // on simule un token , il faudra recuperer le vrai token

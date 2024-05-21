@@ -3,7 +3,7 @@ import {allRoutes} from "./allRoute.js";
 import {websiteName} from "./allRoute.js";
 
 // Création d'une route pour la page 404 (page introuvable)
-const route404 = new Route("404", "Page introuvable", "src/pages/404.html",[]);
+const route404 = new Route("404", "Page introuvable", "../404.html",[]);
 
 
 
@@ -58,7 +58,7 @@ const LoadContentPage = async () => {
   // Récupération du contenu HTML de la route
   const html = await fetch(actualRoute.pathHtml).then((data) => data.text());
   // Ajout du contenu HTML à l'élément avec l'ID "main-page"
-  document.getElementById("main-page").innerHTML = html;
+ // document.getElementById("main-page").innerHTML = html;
 
   // Ajout du contenu JavaScript
   if (actualRoute.pathJS != "") {
