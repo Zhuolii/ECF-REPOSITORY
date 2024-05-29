@@ -4,6 +4,11 @@ Ceci est un site vitrine pour le zoo Arcadia.
 
 Le projet vise à développer un site web/mobile pour le Zoo d'Arcadia. L'application offrira aux visiteurs des pages de présentation détaillées du zoo, leur permettant de découvrir les différents services et animaux du zoo. Un système de connexion sera mis en place pour les administrateurs, les employés et le vétérinaire, leur donnant accès à des fonctionnalités de gestion (CRUD) reliées à une base de données. Les visiteurs, quant à eux, pourront laisser des avis et des commentaires sur leur expérience.
 
+## Livrables du sujet
+
+Tous les livrables/documentation sont sur le dossier docs_livrables_ecf.
+Certains sont manquants
+
 ## Table des matières
 - [Installation/prérequis](#Installation/prérequis)
 - [Utilisation](#Utilisation)
